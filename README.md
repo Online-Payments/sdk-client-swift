@@ -45,8 +45,12 @@ You can add the Swift SDK with Swift Package Manager, by configuring your projec
 
 1. Go to your project's settings and click the 'Package Dependencies' tab.
 2. Click the '+' to add a new Swift Package dependency.
-3. Enter the Github URL in the search bar: `https://github.com/wl-online-payments-direct/sdk-client-swift`
+3. Enter the Github URL in the search bar: `https://github.com/online-payments/sdk-client-swift`
 4. Additionally, you can also set a version of the package that you wish to include. The default option is to select the latest version from the main branch.
 5. Click 'Add package'
 
 When the package has successfully been added, it will automatically be added as a dependency to your targets as well.
+
+## Objective-C Compatibility
+The Online Payments Swift SDK can also be used in Objective-C projects by using CocoaPods or Carthage. Once you have added Online Payments Kit as a dependency, it can easily be used by adding the following import statement where you want to use the SDK:
+`@import OnlinePaymentsKit;` 
